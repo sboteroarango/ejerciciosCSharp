@@ -17,8 +17,8 @@ namespace C_
                 Console.WriteLine(line);
             }  
             lines[0] = "cambia";
-            lines[1] = "hola";
-            lines[2] = "elevate";
+            lines[1] = "cambia 2 veces";
+            lines[2] = "cambia 3 veces";
             File.WriteAllLines(path, lines);
 
 
